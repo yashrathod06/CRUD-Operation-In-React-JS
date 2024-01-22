@@ -7,7 +7,7 @@ import {
 import Navbar from './components/Navbar';
 // import { Home } from './components/Home';
 import { Home } from './components/Home';
-import About from './components/About';
+// import About from './components/About';
 import NoteState from './context/NoteState';
 import Alert from './components/Alert';
 import Signup from './components/Signup';
@@ -34,7 +34,7 @@ function App() {
           <Routes>
               <Route exact path="/" element={<Home showAlert={showAlert}/>} />
               
-              <Route exact path="/about" element={<About />}/>
+              {/* <Route exact path="/about" element={<About />}/> */}
                 
               <Route exact path="/login" element={<Login showAlert={showAlert}/>}/>
                 
